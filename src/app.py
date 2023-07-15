@@ -58,8 +58,11 @@ sns.scatterplot(data=df, x='Duración (minutos)', y='Popularidad', color='green'
 plt.title('Relación entre duración y popularidad de las canciones')
 
 # Save the scatter plot as an image
-plt.savefig('/workspaces/012-PROYECTO1-interacting-with-the-twitter-api-project-tutorial/assets/scatter_plot_sinkope.png')
+plt.savefig('/workspaces/012-PROYECTO1-interacting-with-the-twitter-api-project-tutorial/assets/scatter_plot_marea.png')
 
 
-''''''
-
+'''no necesariamente una cancion mas larga es mas popular. en 3 canciones que he analizado,
+hay una larga con mucha popularidad, una mucho mas corta con bastante popularidad y 
+otra cancion que dura un poco mas que la anterior pero tiene menos popularidad. Da la 
+casualidad que las dos primeras son la misma cancion aunque en otra version, y esto hace
+q tenga casi la misma popularidad.'''
